@@ -49,22 +49,22 @@
         }
 
 
-    #header_nav {
+    #header_nav_hidden {
       display: flex;
       align-items: center;
       justify-content: center;
       background-color: #1d2a35;
     }
 
-    #header_nav a {
+    #header_nav_hidden a {
       transition: 0.5s;
     }
 
-      #header_nav > a:hover {
+      #header_nav_hidden > a:hover {
         background-color: #152029;
       }
 
-    #header_nav > a {
+    #header_nav_hidden > a {
       text-decoration: none;
       padding: 20px;
       color: #f7f7f7;
@@ -79,7 +79,7 @@
 
     #hero {
       display: grid;
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr 1fr;
       padding: 1em;
       gap: 10px;
     }
