@@ -35,7 +35,7 @@
       color: var(--cor-fundo);
 
 
-      background-image: url(../projeto-itinerario/media/header_background-image.jpg);
+      background-image: url(media/header_background-image.jpg);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
